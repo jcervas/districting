@@ -38,8 +38,12 @@ var svg = d3.select("body").append("svg")
   .attr("width",width)
   .attr("height",height);
 
-var projection = d3.geo.statePlane('VA', 960, 500);
+var projection = d3.geoConicConformal()
+  .parallels([38.03333,39.2])
+  .rotate([78.5,-37.66667])
+  .bounds([[-0.090317,-0.038369],[0.054986,0.024383]])
 
+","parallels":, "bounds": [[-0.090317,-0.038369],[0.054986,0.024383]] }
 var path = d3.geoPath(projection);
 
 queue()

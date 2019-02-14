@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+  path {
+    stroke-width: 1px;
+    stroke: #444;
+  }
+
+  text {
+    font: bold 50px Libre Franklin, sans-serif;
+    text-anchor: middle;
+  }
+
+</style>
+<body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-color.v1.min.js"></script>
+<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/d3-array.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src="https://d3js.org/d3-queue.v3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+
+var width = 960,
+    height = 500;
+
+var colors = d3.schemeSet3;
+
+d3.shuffle(colors);
+
+var svg = d3.select("body").append("svg")
+  .attr("width",width)
+  .attr("height",height);
+
+var projection = d3.geoConicConformal()
+  .parallels([36 + 46 / 60, 37 + 58 / 60])
+  .rotate([78, + 30 / 60, 0])
+
+var path = d3.geoPath(projection);
+
+queue()
+  .defer(d3.json,"old.geojson")
+  .defer(d3.json,"new.geojson")
+  .await(function(err,oldDistricts,newDistricts){
+
+    var combined = oldDistricts.features.map(function(d,i){
+      return [d,newDistricts.features[i]].map(path);
+    });
+
+    var districts = svg.selectAll("path")
+      .data(combined)
+      .enter()
+      .append("path")
+        .attr("d",next)
+        .style("fill",function(d,i){
+          return colors[i % 8];
+        });
+
+    var label = svg.append("text")
+      .datum(["Old","New"])
+      .text(next)
+      .attr("x",250)
+      .attr("y",300);
+
+    morph();
+
+    function morph() {
+
+      districts.transition()
+        .duration(3200)
+        .attr("d",next)
+        .on("end",function(d,i){
+
+          if (i === combined.length - 1) {
+            morph();
+          }
+
+        });
+
+      label.transition()
+        .duration(0)
+        .delay(3200 / 2)
+        .on("end",function(){
+          label.text(next);
+        });
+
+    }
+
+  });
+
+function next(d) {
+  return d.reverse()[1];
+}
+
+</script>

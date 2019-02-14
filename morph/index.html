@@ -23,7 +23,6 @@
 <script src="https://d3js.org/d3-queue.v3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://raw.githubusercontent.com/vis4/d3-geo-state-plane/master/state-plane.js"></script>
 
 <script>
 var width = 960,
@@ -36,7 +35,7 @@ var svg = d3.select("body").append("svg")
 var projection = d3.geoConicConformal()
   .parallels([34 + 20 / 60, 36 + 10 / 60])
   .rotate([79, -33 - 45 / 60])
-  .scale(6400)
+  .scale(5400)
   .translate([440,300]);
   
 var path = d3.geoPath(projection);

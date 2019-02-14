@@ -25,6 +25,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <script>
+
 var width = 960,
     height = 500;
 var colors = d3.schemeSet3;
@@ -34,10 +35,10 @@ var svg = d3.select("body").append("svg")
   .attr("height",height);
 var projection = d3.geoConicConformal()
   .parallels([34 + 20 / 60, 36 + 10 / 60])
-  .rotate([79, -34 - 45 / 60])
+  .rotate([79, -33 - 45 / 60])
   .scale(4400)
   .translate([440,300]);
-  
+
 var path = d3.geoPath(projection);
 
 queue()

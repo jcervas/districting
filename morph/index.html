@@ -37,6 +37,9 @@ var projection = d3.geo.conicConformal()
     .scale(8000)
     .translate([0, 0]);
 var path = d3.geoPath(projection);
+projection
+      .translate([width / 2 - (bounds[0][0] + bounds[1][0]) / 2, height / 2 - (bounds[0][1] + bounds[1][1]) / 2]);
+
 queue()
   .defer(d3.json,"old.geojson")
   .defer(d3.json,"new.geojson")

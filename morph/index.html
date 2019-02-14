@@ -27,23 +27,20 @@
 
 <script>
 
-var width = 960,
+var width = 700,
     height = 500;
-
 var colors = d3.schemeSet3;
-
 d3.shuffle(colors);
-
 var svg = d3.select("body").append("svg")
   .attr("width",width)
   .attr("height",height);
-
 var projection = d3.geoConicConformal()
-  .parallels([38.03333,39.2])
-  .rotate([78.5,-37.66667])
-  .bounds([[-0.090317,-0.038369],[0.054986,0.024383]])
-
+  .parallels([39 + 56 / 60, 40 + 58 / 60])
+  .rotate([77 + 45 / 60, 0])
+  .scale(6000)
+  .translate([350,4800]);
 var path = d3.geoPath(projection);
+
 
 queue()
   .defer(d3.json,"old.geojson")

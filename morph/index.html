@@ -22,18 +22,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <script>
-var width = 700,
+var width = 960,
     height = 500;
 var colors = d3.schemeSet3;
 d3.shuffle(colors);
 var svg = d3.select("body").append("svg")
   .attr("width",width)
   .attr("height",height);
-var projection = d3.geoConicConformal()
-  .parallels([39 + 56 / 60, 40 + 58 / 60])
-  .rotate([77 + 45 / 60, 0])
-  .scale(6000)
-  .translate([350,4800]);
+var projection = d3.geo.conicConformal()
+    .parallels([38 + 02 / 60, 39 + 12 / 60])
+    .rotate([78 + 30 / 60, 0])
+    .scale(8000)
+    .translate([0, 0]);
 var path = d3.geoPath(projection);
 queue()
   .defer(d3.json,"old.geojson")

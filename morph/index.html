@@ -35,7 +35,7 @@ var svg = d3.select("body").append("svg")
 var projection = d3.geoConicConformal()
   .parallels([35 + 20 / 60, 36 + 10 / 60])
   .rotate([79, -33 - 45 / 60])
-  .scale(5400)
+  .scale(4400)
   .translate([440,300]);
   
 var path = d3.geoPath(projection);

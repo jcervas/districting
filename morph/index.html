@@ -42,7 +42,13 @@ var b = [[-0.090317,-0.038369],[0.054986,0.024383]],
 var s = 0.95 / Math.max((b[1][0] - b[0][0]) / width, (b[1][1] - b[0][1]) / height),
 var t = [(width - s * (b[1][0] + b[0][0])) / 2, (height - s * (b[1][1] + b[0][1])) / 2]
 
-
+var projection = d3.geoConicConformal()
+  .parallels([38.03333,39.2])
+  .rotate([78.5,-37.66667])
+  .scale(s)
+  .translate(t)
+  
+var path = d3.geoPath(projection);
 
 queue()
   .defer(d3.json,"old.geojson")

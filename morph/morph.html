@@ -36,7 +36,7 @@ var svg = d3.select("body").append("svg")
 
   var projection = d3.geoConicConformal()
   .rotate([75, 0])
-  .fitExtent([[20, 20], [940, 480]], nj);
+  .fitExtent([[20, 20], [940, 480]], "old.geojson");
 
 var path = d3.geoPath(projection);
 

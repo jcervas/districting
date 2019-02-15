@@ -43,8 +43,8 @@ var svg = d3.select("body").append("svg")
 var path = d3.geoPath(projection);
 
 queue()
-  .defer(d3.json,"old.json")
-  .defer(d3.json,"new.json")
+  .defer(d3.json,"old.geojson")
+  .defer(d3.json,"new.geojson")
   .await(function(err,oldDistricts,newDistricts){
 
     var combined = oldDistricts.features.map(function(d,i){

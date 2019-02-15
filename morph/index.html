@@ -39,7 +39,7 @@ var svg = d3.select("body").append("svg")
 .center([-74,42])
 .translate([31,124])
 
-var path = d3.geoPath(projection);
+var path = d3.geoPath(projection.invert);
 
 queue()
   .defer(d3.json,"old.json")

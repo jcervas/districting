@@ -26,7 +26,7 @@ var context = d3.select('#content canvas')
   .node()
   .getContext('2d');
 
-var projection = d3.geoOrthographic()
+var projection = d3.geoConicConformal()
   .scale(500)
   .rotate([30, -45]);
 

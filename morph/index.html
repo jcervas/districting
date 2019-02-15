@@ -78,7 +78,7 @@ function update() {
 
 
 // REQUEST DATA
-d3.json('https://jcervas.github.io/districting/morph/new.json', function(err, json) {
+d3.json('https://jcervas.github.io/districting/morph/new.geojson', function(err, json) {
   geojson = json;
   window.setInterval(update, 50);
   // update(json);

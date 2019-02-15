@@ -33,11 +33,12 @@ d3.shuffle(colors);
 var svg = d3.select("body").append("svg")
   .attr("width",width)
   .attr("height",height);
-var projection = d3.geoConicConformal()
-  .parallels([34 + 20 / 60, 36 + 10 / 60])
-  .rotate([79, -33 - 45 / 60])
-  .scale(4400)
-  .translate([440,300]);
+
+  var projection = d3.geoConicConformal()
+  .parallels([36 + 46 / 60, 37 + 58 / 60])
+  .rotate([78 + 30 / 60, 0]);
+    .fitSize([width, height], { 
+      "type": "LineString", "coordinates": [[-78.3, 36.5], [-73.7, 37.75]]
 
 var path = d3.geoPath(projection);
 

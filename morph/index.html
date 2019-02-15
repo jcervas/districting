@@ -27,10 +27,10 @@ var context = d3.select('#content canvas')
   .getContext('2d');
 
 var projection = d3.geoConicConformal()
-  .center([-74,42])
-  .scale(500)
-  .rotate([106, 0])
-  .translate([31,131]);
+  .center([-82,39])
+  .scale(800)
+  .rotate([75, 0])
+  .translate([79,84]);
 
 var geoGenerator = d3.geoPath()
   .projection(projection)

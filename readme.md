@@ -6,7 +6,7 @@
 First we must download the data we will use.
 We begin with the geography files from the US Census Tigerline:
 
-```
+```{r}
 	shapeFile <- "tl_2018_us_county"
 
 	# Only Run this if the file isn't already downloaded

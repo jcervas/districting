@@ -1,0 +1,139 @@
+---
+title: "Rebuttal Report of Plaintiffs' Expert Regarding Tennessee State House Reapportionment"
+author: "Jonathan Cervas"
+affiliation: Carnegie Mellon University
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: false
+    fig_caption: true
+    latex_engine: pdflatex
+bibliography: /Users/cervas/Downloads/library.bib
+biblio-style: apsr
+geometry: margin=1in
+fontfamily: libertine
+fontsize: 11pt
+# spacing: double
+
+endnote: no
+---
+
+\newpage
+
+# Introduction
+I prepared this rebuttal report at the request of Plaintiffs’ Counsel regarding the Tennessee state House reapportionment plan enacted by the Tennessee General Assembly in February 2022. I have been asked to respond to the expert reports of Sean P. Trende (Ex.Trende) and Douglas Himes (Ex.Himes).
+
+On October 10, 2022, I prepared a report (Cervas Report) for this Court regarding the Tennessee state House reapportionment plan. In that report, I demonstrated that the plan enacted by the Tennessee Legislature (Enacted Plan) included far more TN County Splits[^1] than necessary to comply with federal and state constitutional and statutory law. I prepared five illustrative plans to demonstrate this point. Together, these plans present the tradeoffs involved with prioritizing aspects of redistricting and show that none of these explain the excessive TN County Splits found in the Enacted Plan. I was able to achieve far fewer TN County Splits while still complying with federal and state constitutional and statutory law. I was able to achieve this reduction in TN County Splits while _improving_ on other criteria found in the Tennessee Constitution. 
+
+[^1]: I defined three different ways of counting the number of county splits. “TN County Splits” is the traditional way the state has counted splits.
+
+Mr. Trende and Mr. Himes’s critiques of my illustrative plans are limited and minimal. I address each critique below.  Additionally, I have generated two additional illustrative maps. As I explain, these maps neutralize those critiques and demonstrate, again, that the Enacted Plan included far more TN County Splits than necessary to comply with federal and state constitutional and statutory law.
+
+
+There are six undisputed facts regarding my first report (Cervas Report):
+
+#### 1) Non-contiguous census blocks
+Mr. Himes shows that each of my illustrative maps have non-contiguous census blocks. The non-contiguities contained zero people, and I regret failing to notice them when I submitted my initial report.[^2] I am grateful to Mr. Himes for highlighting these zero-population non-contiguities, and I am pleased to report that I was able to quickly fix those technical errors. Revised Cervas House Maps 13b_e, 14a_e, 13.5a_e, and 13.5b_e have corrected all of these technical errors and are linked in the footnotes below. In all cases, the technical errors had no negative effect on the plans. In fact, all the revised plans have the same number of TN County Splits as their predecessors. Indeed, the only numeric effect of correcting the technical errors was to _increase_ the compactness in each of the plans.
+
+[^2]: Several of Tennessee's counties are themselves non-contiguous (e.g., Davidson). This make detecting non-contiguous blocks more difficult.
+
+#### 2) Map 13a
+Cervas House Map 13a was a baseline map. I do not suggest it as a viable alternative. From this map I made revisions in subsequent maps that are intended to comply with federal and state constitutional and statutory law (see below).
+
+#### 3) Majority-Minority Districts
+There are three maps (Map 13b, 14a, 13.5b) where neither Mr. Trende nor Mr. Himes disputes that they have _at least_ as many Black-majority districts as the Enacted Plan.[^3]
+
+[^3]: Mr. Himes seems to be confusing two different measures. In his report, he says "Plan 13.5a substantially decreases the number of minority-majority districts from 13 to 11" (Ex.Himes at 29). However, the numbers he cites refer to districts that are 50%+1 Black Voting Age Population. Map 13b has 15 districts where 50%+1 of the population is Non-White (majority-minority). Maps 13.5a, 13.5b, and 14a actually have 17 majority-minority districts. The Enacted Plan has 15.
+
+#### 4) Overall Deviation
+All my plans are within the 10% overall population deviation range (see Table 1).[^4]
+
+[^4]: This is true for the plans I list in Table 1 and for Map 13a. As I show in my first report, in the Enacted Plan Montgomery County has three districts that each exceed a 5% deviation. Except where we have taken the districts exactly as is from the Enacted Plan, all of my maps have districts between +/-5% deviation of ideal (see Cervas Report footnote 4 at 10).
+
+#### 5) Compactness
+All my plans are more compact than the Enacted Plan (see Table 1).[^5]
+
+[^5]: This is true for the plans I list in Table 1 and for Map 13a.
+
+#### 6) County Splits 
+All my plans all have considerably fewer TN County Splits than the Enacted Plan (see Table 1).[^6]
+
+[^6]: This is true for the plans I list in Table 1 and for Map 13a.
+
+---
+
+The three legal claims made by Mr. Trende and Mr. Himes, as I understand them, are:[^7]
+
+[^7]: Mr. Trende and Mr. Himes state opinions on the facts and also state legal conclusions. I do not respond to their legal conclusions (e.g., whether past precedent allows Shelby County’s border to be crossed to create a TN County Split or whether Madison County must include one district wholly) because legal arguments are the purview of counsel for the Court to resolve. My decision not to respond to legal arguments should not be read as my agreeing to any such statements.
+
+#### 7) District 73 and 80 (Madison County)
+Mr. Trende and Mr. Himes both devote substantial portions of their reports to my reshaped Districts 73 and 80. District 80 was a rural majority-minority district in the prior 2010 enacted plan, and District 73 was wholly comprised of a portion of Madison County. Significant population loss in this region required adding territory, especially to District 80. My five illustrative maps altered the contours of both districts, with four of the five maps retaining District 80 as a majority-minority district and with all five maps pairing a portion of Madison County with an adjacent county. Drawing the districts in the way that I have allows for more compact districts with less counties affected by splits. 
+
+It is possible, however, to retain districts 73 and 80 exactly as the Legislature drew them and reduce the number of TN County Splits. I have generated a new illustrative map, labeled Cervas House Map 13c. This map neutralizes this argument, and demonstrates again that the Legislature could have created far fewer TN County Splits while still complying with federal and state constitutional and statutory law, if interpreted to prohibit Madison County from pairing with Henderson County. This plan has 24 TN County Splits, the same as Cervas House 13.5b and 14a, and one fewer than Cervas House 13b. This map scores better than the Enacted Map on county splits, compactness, and average deviation (see Table 1).
+
+---
+
+### Figure 1 - Cervas House Map 13c {#fig-13c}
+
+![](Maps/House/Plans/TN_House_13c.png)
+
+---
+
+#### 8) Shelby County
+Mr. Trende and Mr. Himes show that I split Shelby County in Maps 13.5a and 13.5b. I did indeed split the boundary of this county; doing so relieves population pressures in Shelby County. Splitting Shelby County does not imply an increase in TN County Splits. In Map 13.5a, the split allowed for a further reduction in the total number of TN County Splits to 22. In Map 13.5b, the total number of TN County Splits is 24. This is compared to the 30 TN County Splits in the Enacted Plan. I did not split Shelby County in Maps 13b and 14a, nor do I split Shelby County in Map 13c or Map 13d (discussed below). 
+
+#### 9) Core Retention and Incumbency Protection
+Mr. Trende and Mr. Himes argue that I improperly fail to account for core retention and incumbency protection and put too high a priority on limiting county splits. 
+
+Neither of these criteria are listed in the state Constitution. When I am tasked with creating plans for federal and state court, I first comply with the criteria enumerated in federal and state constitutional and statutory law. Only after that can subordinate criteria (like core retention) be considered. My illustrative plans elevate constitutional criteria before considering secondary considerations.
+
+In my previous report, I did not have incumbent home addresses. Plaintiffs’ Counsel informs me that Defendants refused to provide incumbent addresses during discovery, claiming privilege. Thus, I could not have considered incumbency protection in generating my five illustrative maps. Counsel informs me that Defendants agreed to produce this information only after their experts opined on incumbency protection. I have since been provided information on where incumbents reside.
+
+Although I believe the modest decrease in core retention and the modest increase in incumbent pairing reflected in my initial five illustrative maps are justified in service of the Constitution’s county-splitting prohibition, I have generated a seventh illustrative map, labeled Cervas House 13d, in which I revise Cervas House 13c to address these two critiques (see below under "Cervas House 13d").
+
+### Cervas House Map 13d
+Cervas Map 13d is a modification of Cervas House Map 13c. For Map 13d, I have now made additional adjustments throughout the state to increase the core retention from the 2010 cycle map. In doing so, it also acted to place incumbents in separate districts. Map 13d does not split Shelby County. The result is that Cervas Map 13d is more compact than the Enacted Plan, it has improved on the average population deviation compared to the Enacted Plan, it has an identical overall deviation as the Enacted Plan, it pairs the same number of incumbents as the Enacted Plan, and it retains the cores at the same level as the Enacted Plan. In doing so, it retains a over 90% of the map the Legislature enacted for the 2020 cycle as well as 80.1% of the 2010 cycle map.
+
+*In Map 13d, while matching or exceeding the Enacted Plan on every primary or secondary consideration the State has identified, I still am able to limit the number of TN County Splits to 24 as compared to the Enacted Plan's 30*.[^8]
+
+[^8]: I have also addressed Mr. Himes's suggestion that the Upper Cumberland Plateau was maintained in its entirety in the Enacted Plan (Ex.Himes at 36). I have now retained 100% of the core of District 38 in Map 13d.
+
+---
+
+### Figure 2 - Cervas House Map 13d {#fig-13d}
+
+![](Maps/House/Plans/TN_House_13d.png)
+
+---
+
+Table 1 verifies that all my illustrative maps are superior to the Enacted Plan on TN County Splits.
+
+---
+
+### Table 1 - Enacted Plan Comparison to Cervas Illustrative Maps
+
+|                   | Enacted | 13b_e[^9] | 14a_e[^10] | 13.5a_e[^11] | 13.5b_e[^12] | 13c[^13] | 13d[^14] |
+|------------------:|:-------:|:---------:|:----------:|:------------:|:------------:|:--------:|:--------:|
+|  TN County Splits |    30   |     25    |     24     |      22      |      24      |    24    |    24    |
+| Overall Deviation |  9.90%  |   9.96%   |    9.98%   |     9.98%    |     9.82%    |   9.96%  |   9.89%  |
+| Average Deviation |  3.28%  |   3.19%   |    3.63%   |     3.24%    |     2.94%    |   3.07%  |   3.16%  |
+|             Reock |  0.3431 |   0.3581  |   0.3667   |    0.3646    |    0.3755    |  0.3565  |  0.3473  |
+|     Polsby-Popper |  0.2326 |   0.2567  |   0.2696   |    0.2674    |    0.2652    |  0.2543  |  0.2437  |
+|    Core Retention |  80.1%  |   71.5%   |    69.2%   |     70.6%    |     67.9%    |   73.7%  |   80.1%  |
+|    "double bunks" |    6    |     16    |     24     |      20      |      21      |    15    |     6    |
+_Note: Core retention calculated in DRA. Notice trivial differences from what Mr. Trende reports (see Ex.Trende at 19), but that the two numbers give largely the same answer. The conclusions are not altered. To calculate "double bunks", Plaintiffs' counsel provided me with a confidential file containing incumbent addresses on November 18, 2022. I used the U.S. Census Bureau’s Geocoder to create a coordinate file. In QGIS, I used the “Count Points in Polygons” function to count the number of paired incumbents._
+
+[^9]: 13b_e: https://davesredistricting.org/maps#viewmap::89ad33c8-2e87-492b-ba8b-e2ade60734b4
+[^10]: 14a_e: https://davesredistricting.org/maps#viewmap::388b6a2e-df40-4799-a85b-370a0e331b6b 
+[^11]: 13.5a_e: https://davesredistricting.org/maps#viewmap::8ba9a5dd-904c-4290-a87d-0da3a677c3f7 
+[^12]: 13.5b_e: https://davesredistricting.org/maps#viewmap::5a350341-6ccc-4fd0-a3a4-ca822f11f826
+[^13]: 13c: https://davesredistricting.org/maps#viewmap::059d4470-683a-41b1-8e5e-34f1d0223cda
+[^14]: 13d: https://davesredistricting.org/maps#ratings::2f8e2348-4f76-4db0-8b07-abbe779d777a
+
+
+# Conclusions
+
+This is a rebuttal to points made by Mr. Trende and Mr. Himes. There are points made in my earlier report that are not reiterated here. Neither Mr. Trende nor Mr. Himes’s reports undermine the fact that the illustrative maps I offered in my initial report, and those I offer today, comply with federal and state constitutional and statutory law. All the maps I have prepared for this Court have considerably fewer TN County Splits than the Enacted Plan. Even after considering “other legitimate and rational state policies” (see Ex.Himes at 6 quoting Reynolds v. Sims, 377 U.S. at 577-81), I was able to draw a plan (Map 13d) that maintains most of the decisions of the Legislature in their Enacted Plan yet has only 24 TN County Splits.[^17] None of the claims in the reports of Mr. Trende or Mr. Himes challenge the finding that it is possible to comply with federal and state constitutional and statutory law while reducing the number of TN County Splits well below the Enacted Plan’s 30 TN County Splits.
+
+[^17]: Compared to the 2022 Enacted Plan, Map 13d retains 90.3% of the district cores. Compared to the 2012 enacted map, it retains 80.1% of the district cores, the same percentage as the Enacted Plan in 2022.

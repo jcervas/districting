@@ -1,0 +1,436 @@
+---
+title: "Report of Plaintiffs' Expert Regarding Tennessee State House Reapportionment"
+author: "Jonathan Cervas"
+affiliation: Carnegie Mellon University
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: false
+    fig_caption: true
+    latex_engine: pdflatex
+bibliography: /Users/cervas/Downloads/library.bib
+biblio-style: apsr
+geometry: margin=1in
+fontfamily: libertine
+fontsize: 11pt
+# spacing: double
+
+endnote: no
+---
+
+<!-- 
+---
+title: "Report of Plaintiffs' Expert Regarding Tennessee State House Reapportionment""
+runningheader: "Report of Plaintiffs' Expert Regarding TN State House" # only for pdf output
+subtitle: "" # only for html output
+author: "Jonathan Cervas"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  tufte::tufte_html: default
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: /Users/user/Downloads/library.bib
+link-citations: yes
+---
+ -->
+
+\newpage
+
+
+# I. Introduction
+
+I have prepared this report at the request of Plaintiffs' Counsel regarding the Tennessee state House reapportionment plan enacted by the Tennessee General Assembly in February 2022. 
+
+The 2022 enacted House map has 30 TN County Splits.[^1] Counsel asked me to determine whether Tennessee state House plans could have been drawn to include fewer than 30 TN County Splits, while still complying with federal and state constitutional and statutory law. I have determined that it is not only possible to have created a plan with fewer than 30 TN County Splits, it is possible to significantly reduce the number of TN County Splits.
+
+[^1]: As described below, "TN County Splits" references the total number of counties where a portion a county is combined with another county or counties to form a full House district.
+
+Counsel has asked me to prepare a report after creating several illustrative plans adhering to the following criteria:
+
+All stated criteria used by the House Select Committee on Redistricting, found at [https://www.capitol.tn.gov/Archives/House/112GA/redistricting/Documents/House%20Redistricting%20Guidelines%2022.pdf](https://www.capitol.tn.gov/Archives/House/112GA/redistricting/Documents/House%20Redistricting%20Guidelines%2022.pdf).
+
+  - These include:
+
+    i. Each district must be represented by a single member.
+
+    ii. Districts shall comply with the Constitutional requirements for “one person, one vote”, as judicially interpreted to apply to state legislative districts.
+
+    iii. Geographic features, boundaries and population figures shall be based on the 2020 decennial census.
+
+    iv. Districts must be contiguous and contiguity by water is sufficient.
+
+    v. No more than 30 counties may be split to attach to other counties or parts of counties to form multi-county districts.
+
+    vi. The redistricting plan will comply with the Voting Rights Act and the Constitutions of the Tennessee and the United States.
+
+**Plaintiffs asked that I create illustrative maps to be appended to this expert report as examples of maps that meet the enumerated goals stated above and that also have fewer than 30 TN County Splits and lower than a 10% total population deviation.**
+
+My illustrative plans adhere to all state and federal laws. I proffer alternatives that demonstrate to the Court that there are multiple ways to achieve a statewide plan that reduces TN County Splits. My background in redistricting and in polticial science has highlighted the importance of maintaining the fidelity of county borders which helps to guarantee representation of counties and their voters by limiting their divisions. I believe that when counties are divided that it is harder for the voters in those counties to elect candidates of their choice. Consistent with the Tennessee Constitution, political subdivisions and their voters are harmed when being excessively split.
+
+I have prepared five illustrative plans for this Court.[^2] In Cervas House 13a and 13b, I create plans where Shelby County has exactly 13 districts, all of which are identical to the enacted House map. In Cervas House 14a, I create another plan in which Shelby County has exactly 14 districts. I additionally create two plans (Cervas House 13.5a and 13.5b) where the average size of districts in Shelby County is close to the statewide ideal. These plans require a split of the county border. Shelby County in these plans have 13 full districts, and part of one additional district. Even with this additional split, I show it is possible to create a statewide plan with fewer TN County Splits than the plan that was enacted.
+
+[^2]: I have provided the URLs to each of my illustrative plans. These link to Dave's Redistricting App, a publicly available and free redistricting program. Plans can be downloaded in multiple formats, including shapefiles, geojson files, and block equivalency files.
+
+---
+
+Given my experience and expertise in redistricting, I will show through this report that the number of TN County Splits necessary in a Tennessee House plan after the 2020 census can certainly and easily be less than 30. In fact, I have readily found plans that split far fewer counties. In doing so, my illustrative plans are consistent with all of the other objectives laid out by the state in advance of their own map-drawing.
+
+# II. Qualifications and Publications
+
+My name is Jonathan Cervas and I am a resident of Pittsburgh, Pennsylvania. I am a postdoctoral fellow at Carnegie Mellon University. I teach courses for the Institute of Politics and Strategy, the undergraduate and master’s degree-granting unit of political science for the university; one class is a graduate seminar on American politics and one on representation and voting rights. I will also teach a research and statistical methods course in the Spring 2023 semester. I am also an uncompensated Research Associate of the Electoral Innovation Lab at Princeton University, which is home to the non-partisan Princeton Gerrymandering Project.
+
+I joined the Institute for Politics and Strategy in 2020 after receiving my Ph.D. in Political Science from the University of California, Irvine. I received my undergraduate degree at the University of Nevada Las Vegas, and my graduate degrees at the University of California, Irvine. My 2020 doctoral dissertation is titled *A Quantitative Assessment of the Electoral College, 1790-2020*. As my curriculum vitae, attached as Appendix A, shows, I have published eleven peer-reviewed scholarly articles on topics related to political institutions, elections, redistricting, and voting rules. My work has been published in journals which specialize in political science, geography, economics, and law. These include the *Proceedings of the National Academy of Arts and Sciences*, *Social Science Quarterly*, *Political Geography*, *Public Choice*, *Election Law Journal*, *Stanford Journal of Civil Rights & Civil Liberties*, *Presidential Studies Quarterly*, and *PS: Political Science and Politics*. I have been invited to give talks to Princeton University, University of Houston, and the National Conference of State Legislatures. As part of my service commitment to the discipline of political science, I have served as referee for *American Journal of Political Science*, *Political Geography*, *Election Law Journal*, *Public Choice*, and *Political Research Quarterly*.
+
+I have assisted three federal courts and one state court in cases relating to redistricting and racial minority voting rights. I served as redistricting consultant to the Pennsylvania Legislative Reapportionment Commission in 2021. I served the New York State Supreme Court as Special Master in May of 2022, redrawing the State Senate and Congressional districts that are to be used for the 2022 through 2030 elections.
+
+**_Navajo Nation v. San Juan County_ (2018)**: The first case in which I was involved was _Navajo Nation v. San Juan County, UT_, D.C. No. 2:12-CV-00039-RJS (2018). The federal district court in Utah ruled that the election districts for school board and county commission violated the Fourteenth Amendment to the United States Constitution. Specifically, the Navajo Native American tribe had been, for decades, denied the opportunity to elect candidates of their choice. After the court rejected the county’s remedial map, the court retained Prof. Bernard Grofman as Special Master. I was employed as the assistant to the Special Master and helped to prepare remedial maps. The court selected the illustrative maps I helped prepare for immediate use in the next election. These maps were upheld by the Tenth Circuit Court of Appeals _Navajo Nation v. San Juan County_, No.18-4005 (10th Cir. 2019). These maps resulted in the first time the Navajo tribe was able to elect a majority to the school board and county commission. The story of the Navajo in San Juan County can be read in David Daley's book "Unrigged" (https://wwnorton.com/books/9781631495755).
+
+**_Bethune-Hill v. Virginia State Board of Elections_ (2019)**: The second case in which I was involved centered on Black representation in Virginia's House of Delegates. In _Bethune-Hill v. Virginia State Bd. of Elections_, 141 F. Supp. 3d 505 (ED Va. 2015) the federal court ruled that twelve of Virginia’s 100 House of Delegates districts were unconstitutional gerrymanders under the precedent set in _Shaw v. Reno_, 509 US 630 (1993). Districts had been drafted with a floor of 55% Black, meaning that each district created to adhere to the federal Voting Rights Act had Black proportions far in excess of what was needed to elect a candidate of that community's choice. This case eventually reached the United States Supreme Court (SCOTUS) twice. SCOTUS remanded _Bethune-Hill v. Virginia State Board of Elections_, 580 U.S. ___ (2017) when it first reached the court. The district court then ruled eleven of the twelve districts were unconstitutional racial gerrymanders and ordered them redrawn _Bethune-Hill v. Virginia State Bd. of Elections_, 326 F. Supp. 3d 128 (2018). The district court retained Prof. Grofman as Special Master. I worked with Prof. Grofman as the assistant to the Special Master. Together we created ten map modules; three in Norfolk, two in the peninsula area, three in Petersburg, and two in Richmond. The court selected module combinations that adjusted the boundaries of twenty-five districts. The case was heard for a second time on appeal to SCOTUS, who ruled the intervenors did not have standing in the case. _Virginia House of Delegates v. Bethune-Hill_, 587 U.S. ___ (2019). These districts were used in the 2019 election, and because of census delays, again used in 2021.
+
+**_Wright v. Sumter County, GA_ (2020)**: Sumter County’s voting districts diluted the voting power of Blacks in violation of section 2 of the Voting Rights Act. The Georgia Legislature reduced the size of the school board from nine members to seven. In the nine-member board, each member was elected from a district. In the seven-member board, five were elected in districts and two at-large. Evidence on the Court record showed that all three Gingles criteria were satisfied _Wright v. Sumter County Board of Elections and Registration_, (1:14-CV-42 (WLS) U.S. District Court, Middle District of Georgia (2020)). The district court struck down the plan and ordered it to be replaced. The court retained Prof. Grofman in his capacity as Special Master. I again served as assistant to the Special Master. Working with Prof. Grofman, I assisted him in crafting four seven-district illustrative plans and one five-district illustrative plan. The court chose one of the plans I helped to prepare. Defendants appealed to the Eleventh Circuit, which reviewed the entire record and found the district court did not err in finding a Section 2 violation and that the Special Master “expressly found an easily achievable remedy available”. _Wright v. Sumter County Board of Elections and Registration_, No. 15-13628 at 45 (11th Cir. 2020). You can read more about the background of the case in the New York Times's article A Voting Rights Battle in a School Board Coup (Casey, Nicholas, October 25, 2020. [https://www.nytimes.com/2020/10/25/us/politics/voting-rights-georgia.html](https://www.nytimes.com/2020/10/25/us/politics/voting-rights-georgia.html)).
+
+**_Pennsylvania Legislative Reapportionment Commission_**: In July of 2021, I entered into a contract with the 2021 Pennsylvania Legislative Reapportionment Commission to provide consulting work relating to the creation of the PA state House of Representatives and PA Senate districts to be used during elections held between 2022 and 2030. This work involved numerous aspects of the reapportionment process, not limited to map drawing. The commission, led by Chancellor Emeritus Mark Nordenberg of the University of Pittsburgh, was composed of the Senate Majority and Minority leaders, and the House of Representatives Majority and Minority leaders. That necessarily meant that it was a political commission with the leaders of the two major parties. As a commission, we sought to expand opportunities for minority representation throughout the commonwealth. We did this by more faithfully adhering to political subdivision boundaries than previous plans. In situations in which we had discretion, we opted for districts that would create opportunities to enhance representation for historically disadvantaged communities. After the May 2022 primary, it seems likely that the next House of Representatives in PA will have the largest share of minorities ever, with additional opportunities for the future. The maps drafted by the commission were passed with a bipartisan vote on February 4, 2022. The Pennsylvania Supreme Court unanimously affirmed the final reapportionment plan in March 2022. My work with the commission is ongoing.
+
+**_Harkenrider v. Hochel_ (2022)**: On April 18, 2022, Justice Patrick McAllister of the New York Supreme Court retained me as “special master to prepare and draw a new neutral, non-partisan Congressional map”. After the Redistricting Commission failed to create a Congressional plan for the 2022-2030 apportionment, the State Legislature passed its own plan. This plan was ruled by Justice McAllister as a substantive gerrymander, violating the state constitution’s mandate that “Districts shall not be drawn to discourage competition” (Section 3(c)(5)). The court initially allowed the Legislature the opportunity to remedy the violation. I was instructed to create a contingency plan in case the Legislature failed to create its own. On April 27, 2022, the New York Court of Appeals (the highest court in NY) agreed with Justice McAllister’s opinion but further decided that the plan was a procedural violation since the Legislature had no right to draw its own plans under the 2014 Constitutional amendment which established the process of redistricting. In the Court of Appeals opinion, the court ordered me to draw both the Congressional plan and the state Senate plan, since that plan too was passed through an unconstitutional procedure. The failure of the Commission to agree on lawful maps and the time consumed by subsequent litigation meant that, even after an initial postponement of the date for the primaries, the Court was operating under extremely severe time constraints. The Court provided a timetable for my work which included deadlines for submission of comments and expert witness reports to me and the Court, a deadline for the dissemination of a preliminary proposal and report, deadlines for submission of comments and expert witness reports pertaining to this preliminary proposal, and a deadline for the preparation and dissemination of a final map adopted by the Court. I did not begin my map-drawing process *de novo*. There was a considerable volume of information and public comment that had been compiled by the Redistricting Commission that I was able to draw upon. In preparing my preliminary proposed maps for the Court, I (with the help of my research assistants) pored over thousands of pages of court records and testimony that was presented to the Redistricting Commission. In addition, I reviewed the several hundred submissions of testimony via email or through the court docket that came after or just before my appointment, along with several dozen complete or near-complete plans directly submitted to me. On May 6, 2022, Justice McAllister and I held a hearing in Bath, NY to listen to testimony from citizens. Around 30 citizens testified. I delivered preliminary proposed plans on May 16, 2022. After the dissemination of a map on May 16, 2022, I was pleased to receive additional extensive input from the public and concerned groups, most of which were specifically directed to the proposed maps. This feedback included over 800 e-mails and messages directed at me through social media. Additionally, I estimate that over 3,000 comments were submitted to the Court directly, pursuant to the Court’s stipulation of time periods to receive suggestions for map revisions and briefs or expert witness reports. At this stage of the map-making process, my attention was focused on suggestions for changes in the proposed maps that involved the treatment of particular communities of interest. I evaluated suggestions based on the merits of the proposal, not on who (or which political party) was suggesting the change. In particular, if a change was advocated to unify neighborhoods or for community of interest reasons and had few or no partisan consequences and it was feasible to implement, I examined it very carefully and sometimes proposed it to the Court for adoption in the final map. I delivered my final map to the Court on May 20, 2022. The Court swiftly approved my proposal, and the maps will be used for the entirety of the decade, 2022-2030.
+
+I have enlisted the help of Zachary Griggy, an undergraduate political science major at the University of California, Irvine, who has been retained by court-appointed Special Masters in Virginia, North Carolina, and New York for assistance drawing remedial Congressional district maps, among other experience. Additionally, my report benefited from help from Charles Murphy, an undergraduate mathematics major at Carnegie Mellon University who has experience working with "GerryChain", a computational algorithm used for generating redistricting plans.
+
+My opinions in this report are based on the knowledge I have accumulated through my education, training, and experience. This training has included a detailed review of the relevant academic literature. My opinions follow additionally from statistical analysis of the following data:
+
+# III. Data
+
+In order to evaluate the state House plan, I examined:
+
+1) Data delivered by the United States Census on August 12, 2021. This data is referred to as 2020 Census State Redistricting Data (Public Law 94-171), sometimes PL.94-171 and colloquially referred to as PL data. It can be found at [https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/](https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/).
+  
+  - This data includes the total population base used to create districts of approximately equal people, along with several demographic population totals.
+
+  - Data in the PL file is dis-aggregated as low as the census block level, and can be aggregated into totals for block-groups, tracts, precincts, counties, and for the entire state.
+
+2) GIS (Geographic Information Systems) Files
+
+  - Official census GIS product from the "Tigerline" program. These files contain the polygons of the nested hierarchical political and geographic subdivisions. I downloaded the 2020 vintage from [https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html). I post-processed these files to merge with PL population data.
+
+  - Tennessee state House district lines, obtained on February 27, 2022 from [https://www.capitol.tn.gov/House/committees/Redistricting.aspx](https://www.capitol.tn.gov/House/committees/Redistricting.aspx). I compared these shapefiles to those found on Dave's Redistricting App (DRA) and find them to match.
+
+  - An alternative map proposed by the Democratic caucus, which can be found [https://davesredistricting.org/maps#viewmap::706539fb-f439-4d8c-9df8-7a48c6473a30](https://davesredistricting.org/maps#viewmap::706539fb-f439-4d8c-9df8-7a48c6473a30)
+
+  - I examine the compactness of district plans using two measures traditionally found in the academic literature, which are often used by courts. Compactness refers to the geographic appearance of a district. Two common measures of compactness are called the *Reock* and *Polsby-Popper* measures. They are typically measured at the district level, and then averaged to find a plan-wide compactness score. *Reock* compactness is the geometric area of the district divided by the area of a circle that minimally bounds the district. *Polsby-Popper* compactness is the geometric area of a district divided by the area of a circle which has a perimeter equal to the district's perimeter. Both of these measures compare the shape of districts relative to a circle, which is generally considered to be the most compact shape. On both measures, the closer the district compactness score is to 1, the more like a circle it is, which implies that it is more compact. Districts with meandering boundaries score low, particularly on *Polsby-Popper*, and district with irregular shapes score low, particularly on *Reock*. *[Figure 1](#fig-compactness)* shows an example of both *Reock* and *Polsby-Popper* compactness. For more information on compactness and other traditional redistricting criteria, see *The Terminology of Districting*. [^3] 
+
+[^3]: Grofman, Bernard, and Cervas, Jonathan. 2020. "The Terminology of Districting." [https://dx.doi.org/10.2139/ssrn.3540444](https://dx.doi.org/10.2139/ssrn.3540444).
+
+---
+
+### Figure 1 - Compactness Measures {#fig-compactness}
+
+![](compactness.png)
+
+---
+
+# IV. Background
+
+The Tennessee Constitution states that Tennessee’s House of Representatives shall contain 99 districts and that “no county shall be divided in forming such a district” (Art. II, Sec. 5).
+
+The Tennessee Supreme Court recognizes that some TN County Splits must be created to comply with the federal Constitution’s “one person, one vote” requirement, but the Court balances these conflicting requirements by instructing the General Assembly to adopt redistricting plans that “cross as few county lines as is necessary to comply with the” federal Constitution. _State ex rel. Lockert v. Crowell_, 631 S.W.2d 702, 715 (Tenn. 1982).
+
+## Counting Political Subdivision Splits
+
+Social scientists typically report two common ways of counting county splits. First, the quantity of interest is how many counties have more than one district in them. This is a simple measure that asks a logical TRUE/FALSE statement if a county is divided into two or more districts. A county is said to be split once if there is one line drawn that "splits" the county into two pieces. The number of counties that are TRUE are summed. The maximum is the total number of counties in the jurisdiction. I will refer to this count of splits as "County Splits" in this report.
+
+This leads to the second common measure of splits. The second quantity of interest is how many total splits are found statewide. This measure counts, for each county, the number of districts which are contained in it, minus 1. It therefore counts the number of line segments separating districts inside each county. I will refer to this count of splits as "Total Splits" in this report.
+
+These two ways of quantifying splits are commonly found in redistricting software, including in Maptitude for Redistricting and Dave's Redistricting App. 
+
+The Tennessee Constitution's prohibition on county splits concerns a different measure of splits. It is related to these two but distinct. This count is reported in documents found on the Tennessee General Assembly website ([https://www.capitol.tn.gov/Archives/House/112GA/redistricting/Documents/additional%20december%20evaluations.pdf](https://www.capitol.tn.gov/Archives/House/112GA/redistricting/Documents/additional%20december%20evaluations.pdf), not dated, [Accessed March 5, 2022]) that count the number of total counties in which only a partial district is found. It therefore is connected to an adjacent county to receive the rest of the needed population. I will refer to this count as "TN County Splits" in this report.
+
+I will report all three measures of county splits in this report, but will focus on the number of TN County Splits.
+
+In the House Redistricting Guidelines document found on the General Assembly website, it instructs that no more than 30 counties can be split in creating a districting plan. **It is possible to split fewer than 30 counties**, using the 2020 decennial census data, creating a plan with 99 districts.
+
+## Urban Counties
+
+Tennessee has five counties with populations large enough to require five or more House districts. Based on the 2020 census results, these five counties can be drawn to have districts completely "embedded" in them. These five counties need not be combined with populations from other counties to meet the required population thresholds. Put another way, counties that contain populations that can be divided by the ideal population size (plus or minus 5%) of a district and have no remainder can be drawn wholly within the county. 
+
+If counties are not combined with adjacent areas, they can be drawn independent of the rest of the map. That leaves discretion for drawing districts inside these "sealed" counties to the Legislature, and those choices would have *no effect* on the number of county splits found in a plan.
+
+Below is a summary of the five urban counties which can therefore be treated exactly as they were drawn in the enacted House map:
+
+- Shelby County exactly 13 districts
+
+- Davidson County exactly 10 districts
+
+- Knox County exactly 7 districts
+
+- Hamilton County exactly 5 districts
+
+- Rutherford County exactly 5 districts
+
+Shelby County presents a different situation than the other four urban counties because its 2020 population can support 13 or 14 House districts within the 10% population deviation threshold generally accepted as compliant with “one person, one vote.” As described below, I generated two maps where Shelby County remains with the exact 13 House districts as it contains in the enacted House map. I also created a map where Shelby county contains 14 complete House districts. And, because Shelby County’s House districts are significantly overpopulated with 13 full House districts or underpopulated with 14 full House districts, I also created two maps where Shelby County has 13 full House districts and one TN County Split, where a portion of Shelby county pairs with Tipton county to create a House district.
+
+*[Table 1](#tab-1)* shows the population of the 5 urban counties according to the 2020 decennial census.
+
+---
+
+\newpage
+
+### Table 1 - Urban Counties {#tab-1}
+
+| County | Population | Ideal Districts | Districts in enacted |
+|:---:|:---:|:---:|:---:|
+| Shelby County | 929,744 | 13.32 | 13 |
+| Davidson County | 715,884 | 10.26 | 10 |
+| Knox County | 478,971 | 6.86 | 7 |
+| Hamilton County | 366,207 | 5.25 | 5 |
+| Rutherford County | 341,486 | 4.89 | 5 |
+|---|---|---|---|
+| *Total* | *2,832,292* | *40.47* | *40* |
+| *90 other counties* | *4,078,548* | *58.43* | *58* |
+_Note: 2020 Census total population. The ideal size of one House district is 69,806. These five counties have a total population of 2,832,292. Taken together, they ideally contain 40.57 seats out of 99 (40.1%) total seats. In the enacted plan, they only have 40 total districts. Tennessee's total state population is 6,910,840._
+
+---
+
+### Figure 2 - Map of Tennessee Large Urban Counties {#fig-urban}
+
+![](Maps/TN_House-urban)
+*Note: Urban counties. These are the five counties that have populations sufficient for 5 or more districts.*
+
+---
+
+### Counties with populations sufficient for one or more whole districts
+
+The following provides a summary of which counties contain populations equal to or greater than the size of a single House district:
+
+1) Greene and Robertson counties have populations sufficient for exactly one district
+
+2) Bradley, Maury, Madison, Sevier, Putnam, and Anderson counties have populations that exceed the size of one House district but are too small to require two districts, and therefore require one TN County Split
+
+3) Washington and Blount counties have populations sufficient for two House districts
+
+4) Sumner, Sullivan, and Wilson counties have populations that exceed the size of two House districts but are too small to require three districts, and therefore require one TN County Split
+
+5) Williamson and Montgomery[^4] counties all have populations that exceed the size of three House districts but are too small to require four districts, and therefore require one TN County Split
+
+6) Hamilton and Rutherford counties have populations sufficient for five districts
+
+7) Knox County has population sufficient for seven districts
+
+8) Davidson County has population sufficient for 10 districts
+
+9) Shelby County has population sufficient for either 13 or 14 districts
+
+[^4]: Montgomery County is sealed in the 2022 enacted House map, containing three complete districts. All three of these districts are among the most overpopulated in the state. Residents of Montgomery County are significantly underrepresented in the General Assembly. If this county were to include part of a fourth district (causing one TN County Split, increasing the total to 31), it would increase the total TN County Splits to exceed the max allowed in the House Redistricting Guidelines. However, as I demonstrate herein that Tennessee's House map could have significantly fewer TN County Splits, Montgomery County could be properly apportioned, even with one TN County Split.
+
+Any county that is large enough to contain a least one district wholly need not be split. That does not imply it will *not* be split, however. Many counties have populations smaller than a single district and will be combined with adjacent counties. As recognized by the Tennessee Supreme Court and the U.S. Supreme Court, some counties will necessarily be split in order to achieve population equality.
+
+Finding the minimum number of counties that need to be split is not an exercise to be done by hand. Computers can be instructed to develop plans that limit the splitting of counties. I have conducted some algorithmic searches for plans with lower numbers of county splits, and indeed can easily create tens of thousands of plans generated by combining precincts that result in fewer TN County Splits than the 2022 enacted House plan.
+
+Measuring plans using the three different variations of county split counts listed above allows for comparisons of any plan. *[Table 2](#tab-2)* does this for the 2012-2020 enacted map and the 2022-2030 enacted map. It also shows the comparable statistics for the proposed concept map of the Democrats provided to me by counsel. **The 2022 enacted map scores the worst across all three split measures**, and only scores better than the previous decade's plan on average population deviation (and only slightly). It scores worse on all of these metrics than the Democratic's conceptual map.
+
+---
+
+### Table 2 - Total County Splits by Plan {#tab-2}
+
+| PLAN | County Splits | Total Splits | TN County Splits | Overall Deviation | Mean Deviation |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 2012 Enacted | 36 | 70 | 28 | 9.7% | 3.4% |
+| 2022 Enacted | 38 | 74 | 30 | 9.9% | 3.3% |
+| Dem. Concept | 29 | 67 | 23 | 9.72% | 2.17% |
+_Note: "County Splits" is the total number of counties that have at least two districts in them. "Total Splits" is the total number of pieces in counties. "TN County Splits" is the number of counties where a portion of the county is paired with an adjacent county or counties to form a district._
+
+---
+
+In the plan that was enacted in 2012 and used in subsequent elections until 2020, 36 total counties contain at least two districts. These 36 counties were split a total of 70 times. 28 counties have portions of the county paired with an adjacent county or counties, which results in 28 TN County Splits. In the 2022 enacted House plan, 38 of the 95 counties are divided into at least two districts (38 County Splits), for a total of 74 times (74 Total Splits), and 30 counties have districts that span the border (30 TN County Splits). By comparison, the House Democratic Conceptual Map splits only 29 counties, and does so by dividing counties only 67 times, and has 23 TN County Splits[^5]. Note that 18 counties exceed the district ideal population (plus 5%) and therefore *must* be divided.[^6] The overall deviation and average absolute deviation are shown for each of the plans in *[Table 2](#tab-2)*.
+
+[^5]: Plan comparison documents found on the General Assembly website (https://www.capitol.tn.gov/Archives/House/112GA/redistricting/Documents/additional%20december%20evaluations.pdf) list TN County Splits as 30 for the 2022 enacted plan, and 23 for the House Democratic concept map. The split count used by the General Assembly is not reported in either Maptitude for Redistricting (to which I have a license) or Dave's Redistricting App. This is a non-standard way of defining county splits and if applied as a legal standard might lead to a situation where larger counties are needlessly penalized since there is more discretion as to whether it needs to be split (see discussion above about Shelby County).
+[^6]: More restrictive population deviation standards would require a trade-off that would in effect increase the number of county splits. 
+
+**For the enacted House map, two additional County Splits were created, and a total of four more Total Splits, and two additional TN County Splits, compared to the 2012 enacted map.** 
+
+
+### 2022 Enacted Plan
+
+The plan that was enacted by the General Assembly (2022 enacted House plan) for use between 2022 and 2030 has an overall deviation of 9.91%. Districts vary in population between the smallest, House District 78, which has a total population of 66,445 (-4.82%), and the two with the largest populations, House Districts 67 and 68, both of which have a total population of 73,358 (+5.09%). The enacted plan has an average district deviation from ideal of 3.28%. It scores 0.3431 on Reock and 0.2326 on Polsby-Popper.
+
+Shelby County contains exactly 13 districts. The county is split 12 times into 13 pieces, but the county border itself is not split. Davidson County contains 10 districts fully inside the county boundaries, and the county line itself is unsplit. Knox County contains 7 districts fully within the county boundary, and the county border itself is not crossed. Hamilton contains exactly 5 districts and the county boundary is not crossed. Rutherford County wholly contains 5 districts, with the county border not crossed. 
+
+---
+
+### Figure 3 - 2022 Enacted Plan {#fig-enacted}
+
+![](Maps/House/Plans/TN_House_enacted.png)
+
+---
+
+In all these counties, the county border is "sealed" (I have also referred to this as the districts all being "embedded" inside a county), meaning districts are restricted to only within their boundaries. One consequence of this choice is that there is a shortage in population of over 40,000 people that need to be absorbed by the remaining 59 districts not included in these 40, which may actually *increase* the total number of counties that need to be split. Moreover, restricting Shelby County to just 13 districts, instead of the potential 14 districts, creates the possibility of one additional county split at some other place in the statewide map. This conjecture stems from the observation that when there are 13 Shelby County districts, there are 86 districts outside of Shelby County, whereas when Shelby County has 14 districts, there are only 85 districts outside of Shelby County. Fewer districts typically implies fewer splits.
+
+
+### House Democratic Concept Map 12/15/2021
+
+An alternative map was proposed by the House Democrats on December 15, 2021. The map has an overall deviation of 9.72%. Democratic Concept District 7 has the smallest population of 66,495 (-4.74%). Concept District 27 has the largest population of 73,280 (+4.98%). The average district deviation from ideal is 2.17%. It scores 0.3832 on Reock and 0.2789 on Polsby-Popper.
+
+Thirteen districts are wholly contained in Shelby County, and one district (94) also contains all of Fayette County. This means that Shelby County is split on the county border, but the average deviation of districts in Shelby County are lower. Like the 2022 enacted map, the alternative proposed by the House Democrats creates 10 districts in Davidson County, with no county split. Likewise, Knox County contains 7 districts with no county split, Hamilton contains 5 districts with no county split, and Rutherford contains 5 counties with no split.
+
+The Democratic House conceptual map splits nine fewer counties, and does so seven fewer times than the plan enacted in 2022. Moreover, it has seven fewer counties where a district spans it border to complete a district ("TN County Splits"). 
+
+---
+
+### Figure 4 - House Democratic Concept Map {#fig-Housedem}
+
+![](Maps/House/Plans/TN_House_demconcept.png)
+
+---
+
+# V. Cervas House Illustrative Plans
+
+The report will proceed as following: I will present several illustrative plans for the Tennessee House which reduce the number of TN County Splits. I call the first set Cervas Plan 13a and 13b. This set of plans do not split the Shelby County boundary, and Shelby County maintains the exact 13 districts from the enacted plan. Next I create a map called Cervas House Plan 14. It also does not split the Shelby County boundary; Shelby County has exactly 14 districts. I also created two maps called Cervas House Plan 13.5a and 13.5b. In these plans, in contrast to the enacted plan, the Shelby County boundary is split and incorporates 14 total districts, with one district including all of Tipton County. 
+
+In all of these illustrative plans, the number of TN County Splits is significantly reduced. The plan which has the fewest TN County Splits among my illustrative plans is one that split the Shelby County border. In that plan (Cervas House 13.5a), there are only 22 TN County Splits, a reduction of over 25% from the enacted plan. The other four plans I created have either 24 or 25 TN County Splits.
+
+### Cervas House Plan 13a and 13b
+
+In the first illustrative plan I have created for this report, much of the state's prerogatives are preserved. All 13 Shelby County districts remain exactly as they are in the enacted plan, as are the 10 Davidson County districts, seven Knox County districts, five Hamilton County districts, three Montgomery County districts, two Blount County districts, two Sevier County districts, and several other districts scattered across the state. The 51 districts (51.52%) that are identical in both plans are 5, 6, 7, 8, 13, 14, 15, 16, 18, 19, 20, 26, 27, 28, 29, 30, 31, 34, 37, 39, 48, 49, 50, 51, 52, 53, 54, 55, 56, 58, 59, 60, 66, 67, 68, 75, 83, 84, 85, 86, 87, 88, 89, 90, 91, 93, 95, 96, 97, 98, and 99.
+
+---
+
+### Figure 5 - Districts that are identical in 13a and 13b as in the enacted plans
+
+![](Maps/House/TN_House_sameenacted.png)
+
+---
+
+#### Cervas House Plan 13a [^7] 
+
+[^7]: https://davesredistricting.org/maps#viewmap::4c1408df-ea4f-4083-8911-ed796bbfd72b
+
+
+In the first of the two maps in which Shelby County has exactly 13 districts, the plan has an overall deviation of 9.96%. The smallest population district has a population of 66,406 (-4.87%) and the largest district has a population of 73,358 (+5.09%; same as the enacted). The average district deviation from ideal is 3.16%. It scores 0.3597 on Reock and 0.2591 on Polsby-Popper.
+
+In this illustrative plan, 32 counties are split a total of 68 times. **There are 24 TN County Splits, six fewer than the enacted plan.**
+
+---
+
+### Figure 6 - Cervas House Plan 13a {#fig-13a}
+
+![](Maps/House/Plans/TN_House_13a.png)
+
+---
+
+#### Cervas House Plan 13b [^8]
+
+[^8]: https://davesredistricting.org/maps#viewmap::b5b4f40c-7dac-445d-99a7-f044af30c525
+
+For my second plan with 13 districts in Shelby county, I first note that Plaintiffs’ counsel have informed me that Defendants have not produced any Voting Rights Act analysis showing that any specific majority-minority district must be retained or created under current Voting Rights Act jurisprudence.
+
+When redrawing the plan described above (Cervas House 13a) my focus was on neutral criteria and I did so in a race-neutral way. After finishing Cervas House Plan 13a, I recognized that House District 80 inadvertently decreased the Black voting age population (BVAP) from 57.47% to 40.87%. Since the Defendants have not provided any Voting Rights Act analysis, I cannot be sure what compelled the Legislature to draw this district at such a high Black voting age population, and whether this district meets the three criteria under the _Gingles_ decision *Thornburg v. Gingles*, 478 U.S. 30, 106 S. Ct. 2752 (1986). Cervas House Plan 13b is intended to demonstrate to the Court an alternative to the Cervas House Plan 13a that increases that district's BVAP to above 50% (50.94%). Making that change necessitated adjusting just six adjacent districts. 51 districts remain identical to the 2022 enacted plan.
+
+In making the adjustments, one additional TN County Split was required. The smallest district still has a population of 66,406 (-4.87%) and the largest district still has a population of 73,358 (+5.09%). The average district deviation from ideal is 3.19%. It scores 0.3579 on Reock and 0.2566 on Polsby-Popper.
+
+33 counties are split at least once, for a total of 69 times. **There are 25 TN County Splits, five less than the enacted House plan.**
+
+---
+
+### Figure 7 - Cervas House Plan 13b {#fig-13b}
+
+![](Maps/House/Plans/TN_House_13b.png)
+
+---
+
+### Cervas House Plan 14a [^9]
+
+[^9]: https://davesredistricting.org/maps#viewmap::3b123f51-d177-449a-a0f6-691251aff8f0
+
+It is also possible to draw the Tennessee House map such that Shelby County contains 14 complete districts, instead of 13. This next illustrative plans does just that. 
+
+The smallest district has a population of 66,390 (-4.89%) and the largest district has a population of 73,358 (5.09%). The average district deviation is 3.63% from ideal. The overall deviation is 9.98%. The Reock compactness score is 0.3666 and Polsby-Popper is 0.2695.
+
+32 counties are split at total of 69 times. **There are 24 TN County Splits, six fewer than the enacted plan.**
+
+Although this plan was not drawn with any racial targets, or indeed with any race criteria at all, it results in 15 districts with a Black voting age population majority. Compare to the enacted plan, where only 13 districts make up a Black voting age majority population.
+
+---
+
+### Figure 8 - Cervas House Plan 14a {#fig-14a}
+
+![](Maps/House/Plans/TN_House_14a.png)
+![](Maps/House/Plans/Zoom/TN_House_14a.png)
+
+---
+
+### Cervas House Plan 13.5a and 13.5b 
+
+In the following set of illustrative plans, Shelby County contains 14 districts, though one of the districts pairs its Shelby County portion with Tipton County.
+
+Shelby County’s House districts are significantly overpopulated with 13 full House districts or underpopulated with 14 full House districts. For "one person, one vote" to be fully complied with, each district in the Tennessee House would contain 69,806 individuals. If drawn with 13 districts, the average district in Shelby County would have 71,519 people. This is +1,713 above the statewide ideal population. If drawn with 14 districts, districts on average will contain fewer persons than the statewide ideal by -3,396 (66,410). By limiting Shelby County to either 13 or 14 whole districts, Shelby County voters will either be significantly overrepresented in the legislature or significantly underrepresented. The better option is to extend a 14th district across the Shelby County border and reach population deviations closer to the "one person, one vote" standard espoused by the U.S. Supreme Court in *Reynolds v. Sims*, 377 U.S. 533, 84 S. Ct. 1362 (1964).
+
+In all of the 13.5 plans, the average population of districts in Shelby County is significantly reduced, much closer to the statewide ideal. That is, the district populations are significantly more equal to those in other parts of the state, in accordance with U.S. Supreme Court requirements that populations be as near equal as practicable. 
+
+#### Cervas House Plan 13.5a [^10]
+
+[^10]: https://davesredistricting.org/maps#viewmap::0a09e370-8174-4ae3-93c8-95029fa79436
+
+The overall deviation of this plan is 9.98%, and the average deviation is 3.24%. The Reock compactness score on this plan is 0.3644 and the Polsby-Popper score is 0.2672. There are a total of 29 counties that are split at least once, and a total of 66 county splits. **There are 22 TN County Splits, a full 8 fewer than the enacted plan. That is, there is a 25% reduction in the number of splits compared to the enacted baseline.**
+
+In this plan, 11 districts have Black voting age populations above 50%, and another three that are between 47.56% and 49.19%. If the Voting Rights Act is applicable to districts in this region, one would need to ensure that the three districts that are near but below 50% comply with the law. In plan 13.5b, the same number of BVAP 50%+ districts exists as in the enacted plan.
+
+---
+
+### Figure 9 - Cervas House Plan 13.5a {#fig-13.5a}
+
+![](Maps/House/Plans/TN_House_13.5a.png)
+![](Maps/House/Plans/Zoom/TN_House_13.5a.png)
+
+---
+
+#### Cervas House Plan 13.5b [^11]
+[^11]: https://davesredistricting.org/maps#viewmap::ee2de604-cee2-4534-8064-596dd196f852
+
+In this second illustrative plan that allows for a split of the Shelby County boundary, several other changes have been made. First, 13 districts have Black Voting Age Populations above 50%, consistent with the enacted plan baseline. In this plan, I have reduced the population in each of the three Montgomery County based districts, which were all exceeding the normally allowed 5% deviation from ideal. This does require an additional county split, but consistent with the way I have treated Shelby County in this illustrative plan, it creates districts which better adhere to the US Supreme Court's "one person, one vote" equal population mandate. The overall deviation of this plan is 9.82%, and the average deviation is 2.94%. The Reock compactness score is 0.3725 and the Polsby-Popper score is 0.2641. There are 30 Counties that are split in this plan, a total of 68 times. **There are 24 TN County Splits, a reduction of six from the enacted baseline.**
+
+---
+
+### Figure 10 - Cervas House Plan 13.5b {#fig-13.5b}
+
+![](Maps/House/Plans/TN_House_13.5b.png)
+![](Maps/House/Plans/Zoom/TN_House_13.5b.png)
+
+---
+
+# Conclusion
+
+### Table 3 - Illustrative Plans Descriptive Data {#tab-plan_compare}
+| | Enacted | 13a | 13b | 14a | 13.5a | 13.5b |
+|-----|-----|-----|-----|-----|-----|-----|
+| County Splits | 38 | 32 | 33 | 32 | 29 | 30 |
+| Total Splits | 74 | 68 | 69 | 69 | 66 | 68 |
+| TN County Splits | 30 | 24 | 25 | 24 | 22 | 24 |
+| Overall Deviation | 9.9% | 9.96% | 9.96% | 9.98% | 9.98% | 9.82% |
+| Average Deviation | 3.28% | 3.16% | 3.19% | 3.63% | 3.24% | 2.94% |
+| Reock | 0.3431 | 0.3597 | 0.3579 | 0.3666 | 0.3644 | 0.3725 |
+| Polsby-Popper | 0.2326 | 0.2591 | 0.2566 | 0.2695 | 0.2672 | 0.2641 |
+
+---
+
+Given my experience and expertise in redistricting, it is my conclusion that the number of TN County Splits necessary in a Tennessee House plan after the 2020 census can certainly and easily be less than 30. In fact, I have readily found plans that split far fewer counties, are consistent with the objectives laid out by the state, and even ensure the continuation of many of the Legislature's own choices. I have done this also in some of my illustrative plans by ensuring that Shelby County, Davidson County, Knox County, Hamilton County, and Rutherford County are not split except for the internal splits required for equal population. If Shelby County contains 13 whole districts, I have demonstrated that no more than 24 counties need to be split. If Shelby County contains 14 whole districts, I have demonstrated that no more than 24 counties need to be split. If Shelby County has districts that average near the statewide ideal, and has 13 whole districts and part of one more, the plan can have as few as 22 TN County Splits. 
+
+It is possible that even fewer counties need to be split, but given the time constraints of this report, I have not found a plan that does better. Still, I have demonstrated that the 2022 enacted House map does not minimize the number of TN County Splits.  
+
+For this report, I was initially asked to keep the Shelby County districts as they are found in the enacted House map. However, I believe that failing to split Shelby County creates population pressures throughout the rest of the state. The effect of not splitting Shelby County is to favor non-urban areas for additional representation. The choice of not splitting Shelby County appears also to have the consequence of increasing the total number of county splits in the state. The Democratic House Concept Map demonstrates a plan where as few as 23 counties need to be split, though Shelby County is split once. My own illustration in 13.5a does even better, splitting only 22 counties. Splitting Shelby County has an additional benefit of a lower average deviation between districts, since there is a residual population of either 22,000 or 47,500 if Shelby County is not split, _necessitating_ districts to deviate from ideal. The U.S. Supreme Court made clear in its 1960's ruling on malapportionment that voters should have an equal weight in the legislature. In _Reynolds_, the court said "By holding that as a federal constitutional requisite both Houses of a state legislature must be apportioned on a population basis, we mean that the Equal Protection Clause [of the Fourteenth Amendment] requires that a State make an honest and good faith effort to construct districts, in both Houses of its legislature, as nearly of equal population as is practicable" *Reynolds v. Sims*, 377 U.S. 533 (1964). In overpopulating each district in Shelby County, the Legislature has not given a good faith effort to balance the constitutional criteria in state and federal law. I have shown these criteria can be balanced while reducing the number of counties that find themselves with only partial representation. In my experience taking in feedback from the public on redistricting, splits of political subdivision are the top complaint. The Tennessee constitution guides the Legislature to limit the harm to political subdivisions, and in particular counties by prohibiting splits unless necessary to comply with conflicting state or federal law. I have shown how these harms can easily be mitigated simultaneously. 
+
+---
+
+### Links to Plans
+- Enacted: https://davesredistricting.org/maps#viewmap::9db5e77d-b218-4e5a-95b9-1d5303271415 
+- 13a: https://davesredistricting.org/maps#viewmap::4c1408df-ea4f-4083-8911-ed796bbfd72b 
+- 13b: https://davesredistricting.org/maps#viewmap::b5b4f40c-7dac-445d-99a7-f044af30c525 
+- 14a: https://davesredistricting.org/maps#viewmap::3b123f51-d177-449a-a0f6-691251aff8f0 
+- 13.5a: https://davesredistricting.org/maps#ratings::0a09e370-8174-4ae3-93c8-95029fa79436 
+- 13.5b: https://davesredistricting.org/maps#ratings::ee2de604-cee2-4534-8064-596dd196f852
+
+
+
+

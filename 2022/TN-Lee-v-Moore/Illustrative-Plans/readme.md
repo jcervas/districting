@@ -1,5 +1,6 @@
 # Plans in this repository
 
+## House Plans
 
 |                   | Enacted | 13b_e[^9] | 14a_e[^10] | 13.5a_e[^11] | 13.5b_e[^12] | 13c[^13] | 13d_e[^15]| 13d_e2[^16] |
 |------------------:|:-------:|:---------:|:----------:|:------------:|:------------:|:--------:|:---------:|:-----------:|
@@ -23,3 +24,12 @@ _Note: Core retention calculated in DRA. Notice trivial differences from what Mr
 
 
 Plan files also included: 13a, 13b, 13d, 13.5a, 13.5b, 14a
+
+## Senate Plans
+
+| PLAN                 | County Splits (Total Splits) | Overall Dev. | Mean Dev. | Reock | Polsby Popper |
+|----------------------|------------------------------|--------------|-----------|-------|---------------|
+| 2022 Enacted         | 9 (15)                       | 6.2%         | 2.3%      | 0.34  | 0.23          |
+| Cervas Senate Map 1  | 9 (15)                       | 8.5%         | 2.4%      | 0.33  | 0.23          |
+| Cervas Senate Map 1a | 9 (15)                       | 6.2%         | 2.2%      | 0.33  | 0.23          |
+| Cervas Senate Map 1b | 9 (15)                       | 6.2%         | 2.1%      | 0.34  | 0.23          |

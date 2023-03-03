@@ -1,18 +1,5 @@
 # Plans in this repository
 
-- 13a
-- 13b
-- 13b_e
-- 13c
-- 13d
-- 13d_e
-- 13d_e2
-- 13.5a
-- 13.5a_e
-- 13.5b
-- 13.5b_e
-- 14a
-- 14a_e
 
 |                   | Enacted | 13b_e[^9] | 14a_e[^10] | 13.5a_e[^11] | 13.5b_e[^12] | 13c[^13] | 13d_e[^15]| 13d_e2[^16] |
 |------------------:|:-------:|:---------:|:----------:|:------------:|:------------:|:--------:|:---------:|:-----------:|
@@ -32,3 +19,6 @@ _Note: Core retention calculated in DRA. Notice trivial differences from what Mr
 [^13]: 13c: https://davesredistricting.org/maps#viewmap::059d4470-683a-41b1-8e5e-34f1d0223cda
 [^15]: 13d_e: https://davesredistricting.org/maps#viewmap::ab9f8923-5638-45d1-98f6-e01318aa81ca
 [^16]: 13d_e2: https://davesredistricting.org/maps#viewmap::de906f23-7569-4349-84c9-3776de3515a0
+
+
+Plan files also included: 13a, 13b, 13d, 13.5a, 13.5b, 14a

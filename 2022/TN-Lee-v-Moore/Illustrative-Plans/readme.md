@@ -10,6 +10,7 @@
 |     Polsby-Popper |  0.2326 |   0.2567  |   0.2696   |    0.2674    |    0.2652    |  0.2543  |   0.2433  |    0.2434   |
 |    Core Retention |  80.1%  |   71.5%   |    69.2%   |     70.6%    |     67.9%    |   73.7%  |    80.1%  |    80.1%    |
 |    "double bunks" |    6    |     16    |     24     |      20      |      21      |    15    |      6    |       6     |
+
 _Note: Core retention calculated in DRA. Notice trivial differences from what Mr. Trende reports (see Ex.Trende at 19), but that the two numbers give largely the same answer. The conclusions are not altered. To calculate "double bunks", Plaintiffs' counsel provided me with a confidential file containing incumbent addresses on November 18, 2022. I used the U.S. Census Bureau’s Geocoder to create a coordinate file. In QGIS, I used the “Count Points in Polygons” function to count the number of paired incumbents._
 
 [^9]: Cervas House Map 13b_e: https://davesredistricting.org/maps#viewmap::89ad33c8-2e87-492b-ba8b-e2ade60734b4

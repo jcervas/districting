@@ -101,8 +101,8 @@ plan_sum <- function(plan=NULL) {
 
   plan_tmp <- merge(plan, tn_blocks, by.x="GEOID20", by.y="GEOCODE")
     plan_tmp$uniq <- paste0(plan_tmp$District, "_", plan_tmp$COUNTY)
-    uni_dist_cnty <- aggregate(plan_tmp$TOTAL, by=list(plan_tmp$uniq), FUN = sum)
-  plan_tmp <- merge(plan_tmp, uni_dist_cnty, by.x="uniq", by.y= "Group.1")
+    uni_dist_geo <- aggregate(plan_tmp$TOTAL, by=list(plan_tmp$uniq), FUN = sum)
+  plan_tmp <- merge(plan_tmp, uni_dist_geo, by.x="uniq", by.y= "Group.1")
   a = split(plan_tmp, plan_tmp$COUNTY)
 
   b <- list()

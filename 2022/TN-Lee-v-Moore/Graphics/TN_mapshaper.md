@@ -1,4 +1,27 @@
 
+Code to create maps for expert witness reports
+
+
+```
+mapshaper -i blocks_simplified/TN_blocks20_simplified.json name=blocks \
+  -proj EPSG:3662 \
+  -each 'density = TOTAL / (ALAND/2589988)' target=blocks \
+  -each 'sqrtdensity = Math.sqrt(density)' \
+  -classify field=sqrtdensity save-as=fill nice colors=OrRd classes=9 null-value="#fff" \
+  -dissolve COUNTY target=blocks no-replace name=counties \
+  -style fill=none stroke=#aaa stroke-width=0.5 \
+  -filter target=counties '[157,37,65,93,149].indexOf(COUNTY) > -1' + name=urban \
+  -style fill=none stroke=#333 stroke-width=0.5 \
+  -each "cx=$.innerX, cy=$.innerY" \
+  -dissolve fill target=blocks name=dissolved \
+  -each 'type="blocks"' \
+  -i '/Volumes/GoogleDrive/My Drive/GitHub/Data Files/GIS/Cartographic/2021/cb_2021_us_all_500k/cb_2021_us_state_500k/cb_2021_us_state_500k.shp' \
+  -filter 'GEOID=="47"' \
+  -proj EPSG:3662 \
+  -style fill=none stroke=#000 stroke-width=1 \
+  -o '/Users/cervas/Library/Mobile Documents/com~apple~CloudDocs/Downloads/TN_simplified_pop.svg' format=svg combine-layers
+```
+
 ```
 mapshaper -i '/Volumes/GoogleDrive/My Drive/Projects/Redistricting/2022/TN/Senate Plans/2022 Enacted/TN-Senate-enacted.geojson' name=enacted \
   -proj EPSG:2274 \

@@ -1,13 +1,28 @@
 # Redistricting Litigation
 
-Congressional Cases
+## Congressional Cases
+
+- New York
+- Tennessee
+- Alabama
+- North Carolina
+- South Carolina
+- New Mexico
+- New York
+- Pennsylvania
+- Ohio
+- Maryland
+- New Jersey
+- Oregon
+- Utah
+- Florida
+- 
 
 
+## Legislative Cases
 
-Legislative Cases
-
-Michigan
+- Michigan
      + Detroit Caucus v. Indep. Citizens Redistricting Comm’n, 969 N.W.2d 331, 332 (Mich. 2022) (Dismissed)
-
-Tennessee
+- Tennessee
      + Wygant v. Lee
+- Washington

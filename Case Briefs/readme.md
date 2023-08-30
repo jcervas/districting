@@ -16,8 +16,10 @@
 - Oregon
 - Utah
 - Florida
+- Arkansas
+- Kansas
+- Kentucky
 - 
-
 
 ## Legislative Cases
 
@@ -26,3 +28,5 @@
 - Tennessee
      + Wygant v. Lee
 - Washington
+- South Dakota (?)
+- 

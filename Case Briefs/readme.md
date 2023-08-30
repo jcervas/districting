@@ -1,4 +1,4 @@
-# Redistricting Ligigation
+# Redistricting Litigation
 
 Congressional Cases
 

@@ -5,17 +5,20 @@
      + Suttlar v. Thurston, No. 60CV-22-1849 (Ark. Cir. Ct. Pulaski Cty. Mar. 21, 2022).
      + Congressional
 - [New York](https://github.com/jcervas/districting/tree/master/Case%20Briefs/New%20York)
-     + Matter of Harkenrider v. Hochul, No. 60, 2022 N.Y. LEXIS 874, at 1 (N.Y. Apr. 27, 2022).
-          * Congressional
-          * Decision: Unconstitutional
+     + Congressional
+          * Matter of Harkenrider v. Hochul, No. 60, 2022 N.Y. LEXIS 874, at 1 (N.Y. Apr. 27, 2022).
+               - Decision: Unconstitutional
 - Tennessee
 - Alabama
+     + Congressional
+          * Allen v. Milligan
+               - VRA
+               - Decision: Overturned
 - Georgia
      + [Power and representation at stake in Georgia redistricting trial](https://www.ajc.com/politics/redistricting-trial-could-throw-out-georgias-republican-drawn-maps/2FLMYKW4RBB3BHTLNMUDFTQ3VA/)
 - North Carolina
 - South Carolina
 - New Mexico
-- New York
 - Pennsylvania
 - Ohio
 - Maryland

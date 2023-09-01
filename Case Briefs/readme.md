@@ -21,6 +21,7 @@
 - Arkansas
 - Kansas
 - Kentucky
+     + Graham v. Adams
      + Oral arguments challenging Kentucky’s state House and congressional maps will be heard by the Kentucky Supreme Court on Sept. 19
 - 
 

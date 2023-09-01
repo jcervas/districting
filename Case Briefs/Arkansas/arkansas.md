@@ -4,9 +4,6 @@ From: Scott Matsuda
 
 Date: 10/3/2022
 
-<u>Case Briefing</u>
-
-
 **ARKANSAS**
 
 (Note: *Suttlar v. Thurston* was, in fact, about <u>racial

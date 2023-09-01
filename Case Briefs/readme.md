@@ -1,8 +1,13 @@
 # Redistricting Litigation
 
-## Congressional Cases
-
-- New York
+## State
+- [Arkansas](https://github.com/jcervas/districting/tree/master/Case%20Briefs/Arkansas)
+     + Suttlar v. Thurston, No. 60CV-22-1849 (Ark. Cir. Ct. Pulaski Cty. Mar. 21, 2022).
+     + Congressional
+- [New York](https://github.com/jcervas/districting/tree/master/Case%20Briefs/New%20York)
+     + Matter of Harkenrider v. Hochul, No. 60, 2022 N.Y. LEXIS 874, at 1 (N.Y. Apr. 27, 2022).
+          * Congressional
+          * Decision: Unconstitutional
 - Tennessee
 - Alabama
 - Georgia
@@ -17,8 +22,9 @@
 - New Jersey
 - Oregon
 - Utah
+     + League of Women Voters of Utah v. Utah State Legislature, No. 220901712 (Utah D. Ct. Mar. 17, 2022).
 - Florida
-- Arkansas
+
 - Kansas
 - Kentucky
      + Graham v. Adams

@@ -5,6 +5,8 @@
 - New York
 - Tennessee
 - Alabama
+- Georgia
+     + [Power and representation at stake in Georgia redistricting trial](https://www.ajc.com/politics/redistricting-trial-could-throw-out-georgias-republican-drawn-maps/2FLMYKW4RBB3BHTLNMUDFTQ3VA/)
 - North Carolina
 - South Carolina
 - New Mexico
@@ -19,6 +21,7 @@
 - Arkansas
 - Kansas
 - Kentucky
+     + Oral arguments challenging Kentucky’s state House and congressional maps will be heard by the Kentucky Supreme Court on Sept. 19
 - 
 
 ## Legislative Cases

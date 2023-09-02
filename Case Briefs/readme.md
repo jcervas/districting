@@ -20,7 +20,9 @@
                - VRA
                - Decision: Overturned
 - Georgia
-     + [Power and representation at stake in Georgia redistricting trial](https://www.ajc.com/politics/redistricting-trial-could-throw-out-georgias-republican-drawn-maps/2FLMYKW4RBB3BHTLNMUDFTQ3VA/)
+     + Congressional
+          * 
+          * [Power and representation at stake in Georgia redistricting trial](https://www.ajc.com/politics/redistricting-trial-could-throw-out-georgias-republican-drawn-maps/2FLMYKW4RBB3BHTLNMUDFTQ3VA/)
 - North Carolina
      + Legislative
           * ?
@@ -34,7 +36,12 @@
           * Harper v. Hall, 886 S.E.2d 393 (2023)
                - Vacated Harper I
 - South Carolina
+     + Congressional
+          * Alexander
 - New Mexico
+     + Congressional
+          * Republican Party of New Mexico v. Oliver, No. D-506-CV-202200041 (N.M. D. Ct. Jan. 21, 2022) 
+          * Decision: (outcome pending)
 - Pennsylvania
      + Congressional
           * League of Women Voters of Pa v. Commonwealth, 178 A.3d 737 (Pa. 2018)
@@ -53,8 +60,11 @@
      + Congressional
           * "Matter of Congressional Districts by New Jersey Redistricting Comm’n, 268 A.3d 299 (N.J. 2022)"
 - Oregon
+     + Congressional
+          * Clarno v. Fagan, No. 21-CV-40180, 2021 WL 5632370 (Or. Cir. Ct. Nov. 24, 2021)
+               - Decision
 - Utah
-     + League of Women Voters of Utah v. Utah State Legislature, No. 220901712 (Utah D. Ct. Mar. 17, 2022).
+     + League of Women Voters of Utah v. Utah State Legislature, No. 220901712 (Utah D. Ct. Mar. 17, 2022)
 - Florida
      + Congressional
           * League of Women Voters of Fla. v. Detzner 172 So.3d 363 (Fla. 2015)
@@ -64,6 +74,7 @@
 - Kansas
      + Congressional
           * Rivera v. Schwab, 512 P.3d 168 (Kan. 2022)
+               - Decision: Dismissed (not justicible)
 - Kentucky
      + Graham v. Adams, No. 22-CI-47 (Ky. Cir. Ct. Jan. 20, 2022)
           * Oral arguments challenging Kentucky’s state House and congressional maps will be heard by the Kentucky Supreme Court on Sept. 19

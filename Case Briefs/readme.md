@@ -22,6 +22,10 @@
      + Congressional
           * Allen v. Milligan, 143 S. Ct. 1487, 216 L. Ed. 2d 60 (2023)
                - Decision: Overturned (VRA)
+- Connecticut
+     + Congressional
+          * In Re Petition of Reapportionment Commission, Ex. Rel., SC 20661 (2022)
+          * Failure to enact a plan, court appointed Special Master Nate Persily to draw the map
 
 - Georgia
      + Congressional

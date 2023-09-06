@@ -18,7 +18,8 @@
      + Legislative
           * Gary Wygant et. al. vs. Bill Lee et. al.
      + Congressional
-          * TENNESSEE STATE CONFERENCE OF THE NAACP v. LEE, UNITED STATES DISTRICT COURT FOR THE MIDDLE DISTRICT OF TENNESSEE NASHVILLE DIVISION
+          * Tennessee State Conference of the NAACP, et al. v. William B. Lee, et al., UNITED STATES DISTRICT COURT FOR THE MIDDLE DISTRICT OF TENNESSEE NASHVILLE DIVISION Case No. 3:23-cv-00832
+               - Hearing Sept 15, 2023
 
 - Alabama
      + Congressional

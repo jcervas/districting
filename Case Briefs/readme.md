@@ -104,6 +104,9 @@
 - Washington
      + Legislative
           * ???
+- Wisconsin
+     + Legislative
+          * ???
 
 - South Dakota (???)
      + ???

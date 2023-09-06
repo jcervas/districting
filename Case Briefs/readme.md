@@ -4,8 +4,10 @@
 
 - [Arkansas](https://github.com/jcervas/districting/tree/master/Case%20Briefs/Arkansas)
      + Congressional
-          * Suttlar v. Thurston, No. 60CV-22-1849 (Ark. Cir. Ct. Pulaski Cty. Mar. 21, 2022).
+          * [State Court] Suttlar v. Thurston, No. 60CV-22-1849 (Ark. Cir. Ct. Pulaski Cty. Mar. 21, 2022). 
                - Decision: Dismissed, lack of jurisdiction
+          * [Federal Court](https://apnews.com/article/voting-rights-voting-arkansas-race-and-ethnicity-legislature-7cf9703c3191556df750d774420510ce)
+               - Decision: Pending
 
 - [New York](https://github.com/jcervas/districting/tree/master/Case%20Briefs/New%20York)
      + Congressional
@@ -16,7 +18,7 @@
      + Legislative
           * Gary Wygant et. al. vs. Bill Lee et. al.
      + Congressional
-          * 
+          * TENNESSEE STATE CONFERENCE OF THE NAACP v. LEE, UNITED STATES DISTRICT COURT FOR THE MIDDLE DISTRICT OF TENNESSEE NASHVILLE DIVISION
 
 - Alabama
      + Congressional

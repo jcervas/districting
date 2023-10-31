@@ -1,5 +1,7 @@
 # Redistricting Litigation
 
+[Tracking Spreadsheet](https://docs.google.com/spreadsheets/d/10llww2YpqTg5PcPj_xEod98yXc5tecwDD_XR3uN7JFE/edit?usp=sharing)
+
 ## State
 
 ### [Arkansas](https://github.com/jcervas/districting/tree/master/Case%20Briefs/Arkansas)
